@@ -1,5 +1,66 @@
-h1 {
-	font-size:30px;
-	font-family:Arial; 
-	color:blue;
+*{
+	margin: 0;
+	padding: 0;
 }
+
+@font-face {
+  font-family: "Allura";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Allura'), local('Allura-Regular'), url(http://fonts.gstatic.com/s/allura/v4/FLAoFX-vpy77zHrLRItOdPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/allura/v4/6YDnjvBg8yyWnJdhNMhgLPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: "Tangerine";
+  font-style: normal;
+  font-weight: 100;
+  src: local('Tangerine'), 
+	url(http://fonts.gstatic.com/s/tangerine/v5/HGfsyCL5WASpHOFnouG-RFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/tangerine/v5/HGfsyCL5WASpHOFnouG-RD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1 {
+	color: #FF0000;
+	font-family: "Allura", Helvetica, Verdana ;
+	margin: 0.5em auto;
+	padding-bottom: 0.10em;
+	text-align: center;
+}
+
+h2 {
+	color: #FF0000;
+	font-family: "Allura", Helvetica, Verdana ;
+	margin: 0.5em auto;
+	padding-bottom: 0.10em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h5 {
+	color: #FF0000;
+	font-family: "Tangerine", Helvetica, Verdana ;
+	text-align: center;
+	padding-bottom: 0.50em;
+	font-size: 0.75em;
+}
+
+body {
+	background:
+	color: #000000;
+	font-family: "", Helvetica, Verdana, ;
+	font-size: 1em;
+	text-align: center;
+}
+
+linkinterior {
+	text-align:center;
+}
+
+hr {
+	border: 3;
+	width: 35%;
+}
+
+
+
