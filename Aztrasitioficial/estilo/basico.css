@@ -75,6 +75,11 @@ img.ico {
 	max-height: 16px;
 }
 
+img.icogrande {
+	max-width: 50px;
+	max-height: 50px;
+}
+
 img.marco2  {
    padding:8px;
    background-color: #f5f5f5;
