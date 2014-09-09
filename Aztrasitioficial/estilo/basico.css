@@ -183,11 +183,11 @@ img.marco2  {
 
 /* imagen giro */
 #containerEx3 {
-   width: 75%;
+   width: 70%;
    margin: 0 auto;
 }
 #ex3 img {
-   margin: 20px;
+   margin: 10px;
    border: 5px solid #eee;
    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
@@ -294,6 +294,7 @@ p.arreglar {
 cite.hoy {
 	font-family: "Times New Roman";
 	font-size: 1.15em;
+	text-align: center;
 }
 
 footer {
