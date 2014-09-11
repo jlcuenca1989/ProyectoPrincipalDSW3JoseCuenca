@@ -98,7 +98,12 @@ img.marco2  {
    border-bottom: 1px solid #999999;
    border-right: 1px solid #999999;
 }
-
+img.pensamiento  {
+   height: 25%;
+   max-height:25%;
+   min-width: 35%;
+   max-width:50%;
+}
 /* texto deslizante */
 #ex4 {
    width: 100%;
@@ -162,7 +167,7 @@ img.marco2  {
 
 /* imagen zoom */
 #container {
-   width: 75%;
+   width: 80%;
    margin: 0 auto;
 }
 #ex2 img{
@@ -226,22 +231,39 @@ body {
 }
 
 aside.texto {
+	padding-left: 2em;
 	background-color: #FFFFFF;
 	color: #000000;
-	font-family: Comic Sans;
-	font-size: 1em;
+	font-family: "century Gothic";
+	font-size: 85%;
+	text-align: left;
+}
+aside.texto1 {
+	padding-right: 2em;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "century Gothic";
+	font-size: 85%;
+	text-align: right;
+}
+aside.merch {
+	padding-right: 2em;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: "century Gothic";
+	font-size: 85%;
 	text-align: center;
 }
 aside.lista {
 	background-color: #FFFFFF;
 	color: #000000;
-	font-family: Comic Sans;
-	font-size: 1em;
+	font-family: "century Gothic";
+	font-size: 85%;
 	text-align: center;
 }
 
 section#contenedor {
-	margin: auto;
+	margin: 1em;
 	padding: 0.5em;
 	text-align:center;
 }
@@ -339,16 +361,31 @@ body {
 	-webkit-transition-property: transform; -webkit-transition-duration: 0.5s; }
 #movieposters li:hover img { -webkit-transform: rotateY(0deg); }
 
-.movieinfo { border:10px solid #fcfafa; padding:20px; width:200px; height:180px; background-color:#deddcd; margin:-195px 0 0 55px; position:absolute;
+.movieinfo { border:2px solid #fcfafa; padding:20px; width:35%; height:15%; background-color:#deddcd; margin:-195px 0 0 5%; position:absolute;
 	-moz-box-shadow:0 20px 40px #888; -webkit-box-shadow:0 20px 40px #888;
 	-webkit-transform: translateZ(30px) rotateY(30deg);
 	-webkit-transition-property: transform, box-shadow, margin; -webkit-transition-duration: 0.5s; }
 	
 #movieposters li:hover .movieinfo { -webkit-transform: rotateY(0deg); -webkit-box-shadow:0 5px 10px #888; margin:-175px 0 0 30px; }
 	
-.movieinfo h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:15px; }
-.movieinfo p { padding-bottom:15px; }
+.movieinfo h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:2px; }
+.movieinfo p { padding-bottom:10px; font-size:85%; text-align:center; }
 .movieinfo a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
 	-moz-border-radius:5px; -webkit-border-radius:5px; }
 .movieinfo a:hover, .movieinfo a:focus { background-color:#6a191f; color:#fff; }
 
+
+
+
+/*gratis*/
+.gratis { border:0px solid #000; padding:1px; width:15%; height:35px; background-color:#ccc; margin:10% 0 0 -2%; position:absolute;
+	-moz-box-shadow:0 20px 40px #000; -webkit-box-shadow:0 20px 40px #888;
+	-webkit-transform: translateZ(30px) rotateY(30deg);
+	-webkit-transition-property: transform, box-shadow, margin; -webkit-transition-duration: 0.5s; }
+	
+#movieposters li:hover .gratis { -webkit-transform: rotateY(0deg); -webkit-box-shadow:0 5px 10px #888; margin:-175px 0 0 30px; }
+	
+.gratis a { background-color:#eee; padding:5px 5px; color:#7a3f3a; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
+	-moz-border-radius:5px; -webkit-border-radius:5px; }
+.gratis a:hover, .gratis a:focus { background-color:#6a191f; color:#fff; }
+/*gratis*/
